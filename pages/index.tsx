@@ -41,7 +41,8 @@ export default function Home() {
   if (!isConnected) {
     return (
       <div style={{ padding: "20px", textAlign: "center" }}>
-        <h1>0G Broker 演示</h1>
+        <h1>0G Brave Trader 🚀</h1>
+        <p>智能交易助手 - 基于 0G Broker 的去中心化 AI 交易顾问</p>
         <p>请先连接钱包</p>
         <div style={{ marginTop: "20px" }}>
           <ConnectButton />
@@ -59,7 +60,12 @@ export default function Home() {
           marginBottom: "20px",
         }}
       >
-        <h1>0G Broker 演示</h1>
+        <div>
+          <h1>0G Brave Trader 🚀</h1>
+          <p style={{ fontSize: "14px", color: "#666", marginTop: "-10px" }}>
+            智能交易助手 - 基于实时市场数据的 AI 交易建议
+          </p>
+        </div>
         <ConnectButton />
       </div>
 
@@ -101,7 +107,7 @@ export default function Home() {
             cursor: "pointer",
           }}
         >
-          聊天
+          交易助手
         </button>
       </div>
 
